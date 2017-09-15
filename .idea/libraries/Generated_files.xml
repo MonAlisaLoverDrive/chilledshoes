@@ -2,11 +2,19 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/js/components/top_bar.js" />
         <item url="file://$PROJECT_DIR$/dist/js/sierra.js" />
+        <item url="file://$PROJECT_DIR$/dist/dialogs/signin.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/component_manager.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/components/left_bar.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/js/components/top_bar.js" />
       <root url="file://$PROJECT_DIR$/dist/js/sierra.js" />
+      <root url="file://$PROJECT_DIR$/dist/dialogs/signin.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/component_manager.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/components/left_bar.js" />
     </CLASSES>
     <SOURCES />
   </library>

@@ -1,0 +1,26 @@
+{
+  "name": "chilledshoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jquery": "^3.2.1",
+    "tsify": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "brow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonAlisaLoverDrive/chilledshoes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonAlisaLoverDrive/chilledshoes/issues"
+  },
+  "homepage": "https://github.com/MonAlisaLoverDrive/chilledshoes#readme"
+}

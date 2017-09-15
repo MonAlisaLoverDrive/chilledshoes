@@ -1,6 +1,9 @@
 'use strict';
 
-sierra = {};
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var sierra = exports.sierra = {};
 
 /*= = = = = = = = =
 * Pages
@@ -46,4 +49,8 @@ sierra.generateGrid = function (max) {
 
     $('div.grid').html(result);
 };
+
+/*= = = = = = = = =
+* Parties
+* = = = = = = = = */
 //# sourceMappingURL=sierra.js.map
