@@ -29,4 +29,4 @@ var Component = (function () {
     return Component;
 }());
 exports.Component = Component;
-//# sourceMappingURL=Component.js.map
+//# sourceMappingURL=Componen2t.js.map

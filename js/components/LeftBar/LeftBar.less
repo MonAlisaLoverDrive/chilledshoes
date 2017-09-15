@@ -28,7 +28,7 @@ div.LeftBar
         width: 25vw;
     }
     
-    &:hover
+    &.open
     {
         width: 100vw;
         
@@ -44,14 +44,16 @@ div.LeftBar
         }
     }
     
-    div.menu
+    div.Menu
     {
         border-bottom: 0.25vh solid @steel-gray;
+        padding: 0.5vmax;
     }
     
-    div.notifications
+    div.Notifications
     {
-        flex: 1;
+        flex:       1;
+        background: rgba(0, 0, 0, 0.5);
     }
 }
 

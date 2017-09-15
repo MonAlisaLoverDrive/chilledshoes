@@ -3,8 +3,12 @@ div.LeftBar {
   left: 0;
   top: 0;
   z-index: 50;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
   width: 5vw;
   background: #2c2d36;
@@ -19,25 +23,29 @@ div.LeftBar {
     width: 25vw;
   }
 }
-div.LeftBar:hover {
+div.LeftBar.open {
   width: 100vw;
 }
 @media screen and (min-width: 720px) and (min-device-width: 720px) {
-  div.LeftBar:hover {
+  div.LeftBar.open {
     width: 50vw;
   }
 }
 @media screen and (min-width: 1280px) and (min-device-width: 1280px) {
-  div.LeftBar:hover {
+  div.LeftBar.open {
     width: 25vw;
     box-shadow: none;
   }
 }
-div.LeftBar div.menu {
+div.LeftBar div.Menu {
   border-bottom: 0.25vh solid #5c6576;
+  padding: 0.5vmax;
 }
-div.LeftBar div.notifications {
-  flex: 1;
+div.LeftBar div.Notifications {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: rgba(0, 0, 0, 0.5);
 }
 div.LeftBarPlaceholder {
   height: 100vh;
